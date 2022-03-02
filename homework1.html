@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <p>Введите ФИО:<br><input type="text" name="name" required></p>
+        <p>Введите пароль:<br><input type="password" name="password" id="" required></p>
+
+        <p>Какой диск вы хотите получить?</p>
+        <p><label><input type="radio" name="disk">CD</label></p>
+        <p><label><input type="radio" name="disk">DVD</label></p>
+
+        <p>Какие обучающие курсы вы хотите видеть на диске?</p>
+        <p><label><input type="checkbox" name="course">Курсы по Фотошопу</label></p>
+        <p><label><input type="checkbox" name="course">Курсы по Adobe Dreamweaver</label></p>
+        <p><label><input type="checkbox" name="course">Курсы по PHP</label></p>
+
+        <p>Выберите способ доставки:</p>
+        <select name="delivery">
+            <option value="Курьер">Курьером</option>
+            <option value="Сани">На санях санты</option>
+            <option value="Ракета">На ракете</option>
+        </select>
+
+        <p>Введите адрес доставки:</p>
+        <textarea name="adress" cols="50" rows="7"></textarea>
+
+        <p>
+        <pre><input type="submit" value="Сделать заказ">    <input type="reset" value="Отмена"></pre>
+        </p>
+    </form><br>
+
+    <table border="1">
+        <tr>
+            <th rowspan="2">Номер</th>
+            <th colspan="2">Теги</th>
+        </tr>
+        <tr>
+            <th>Тег</th>
+            <th>Значения</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>p</td>
+            <td rowspan="4">Для текста</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>a</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>b</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>i</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>table</td>
+            <td>таблица</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>tr</td>
+            <td>ряд таблицы</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>td</td>
+            <td rowspan="2">ячейки таблицы</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>th</td>
+        </tr>
+    </table>
+</body>
+
+</html>
